@@ -1,93 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <meta name="viwport"  contrnt="with=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link href="stylesheet" href="https://stackpath.bootstapcdn.com/font-awesome
+    /4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <table cellspace="20px">
-        <tr>
-            <td><img src="images/ahmdy.jpg" alt="Ahmadiyya">            </td>
-            <td><h1>Sani Auwal Muhammad</h1>
-                <p><i>The founder and the CEO of <a href="www.saniartworks.com">Saniartworks
-                  Nigeria Limited</a></i></p>
-                <p>I am a Website and Applications Developer I love
-                  reading and playing football with my friends and one of the all is
-                   I like to create a website</p>
-                </td>
-        </tr>
-    </table>
-    <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-        <li>The Complete IOS App Development Bootcamp</li>
-        <li>The Complete Web Development Bootcamp </li>
-    </ul>
-    <H3>My Hoobies</H3>
-    <ol>
-        <li>Reading</li>
-        <li>Chilling</li>
-        <li>Writing Codes</li>
-        <li>Creating Websites</li>
-    </ol>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="">HOME</a></li> 
+                   <li><a href="">ABOUT</a></li> 
+                   <li><a href="">COURSE</a></li> 
+                   <li><a href="">BLOG</a></li> 
+                   <li><a href="">CONTACT</a></li> 
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
     
-    <br>
-<hr>
-<br>
-    <table border="2">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1999-2006</td>
-                <td>Shoe shiner</td>
-            </tr>
-            <tr>
-                <td>2008-2010</td>
-                <td>hawker</td>
-            </tr>
-            <td>2020-date</td>
-            <td>Cyber security consultant</td>
-        </tbody>
-    </table>
+    <div class="text-box">
+        <h1>YPC University</h1>
+        <P>A big opportunity to put this prestigious organization on my CV.
+             The placement was very challenging. 
+             The placement provided me with a valuable experience. 
+             And amazing placement with friendly and welcoming staff. 
+             The placement provided an excellent opportunity to work with 
+             professionals and learn from their considerable experience.
+
+        </P>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+
+    </section>
+
+<!----------------Course----------------->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>We offer absolute courses that will help our youth in the future</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+                Computational complexity 
+                theory focuses on classifying computational
+                problems according to their resource usage,
+                and relating these classes to each other.
+                A computational problem is a task solved by 
+                a computer.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+                Computational complexity 
+                theory focuses on classifying computational
+                problems according to their resource usage,
+                and relating these classes to each other.
+                A computational problem is a task solved by 
+                a computer.
+            </p>
+        </div><div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>
+                Computational complexity 
+                theory focuses on classifying computational
+                problems according to their resource usage,
+                and relating these classes to each other.
+                A computational problem is a task solved by 
+                a computer.
+            </p>
+        </div>
+    </div>
+
+</section>
 
 
-    <br>
-<hr>
-    <table>
-        <tr>
-            <td>
-                <table>
-                <h3>Skills</h3>
-                <tr>
-                    <td>IOS Development</td>
-                    <td>💛💛💛💛💛</td>
-                </tr>
-                <tr>
-                    <td>Wed Developement</td>
-                    <td>💛💛💛💛</td>
-                </tr>
-                <tr>
-                    <td>Photography</td>
-                    <td>💛💛💛</td>
-                </tr>
-                 </tr>
+<!----------------Campus-------------------->
 
-                </table>
-            </td>
-        </tr>
-    </table>
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>We offer absolute courses that will help
+         our youth in the future</p>
 
-    <br>
-    <hr>
-    <b><a href="http://127.0.0.1:5500/my%20website/contact%20me.html">Contact Me</a></b>
-    <strong><a href="http://127.0.0.1:5500/index.html">Back</a>
-    </strong>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/abuja.jpg">
+            <div class="layer">
+                <h3>ABUJA</h3>
+            </div>
+     </div>
+     <div class="campus-col">
+        <img src="images/lagos.jpg">
+            <div class="layer">
+                <h3>LAGOS</h3>
+            </div>
+     </div>
+     <div class="campus-col">
+        <img src="images/kano.gif">
+            <div class="layer">
+                <h3>KANO</h3>
+            </div>
+     </div>
+    </div>
+</section>
+
+<!----------------Facilities---------->
+<section class="facilities">
+<h1>Our Facilities</h1>
+<p>We offer absolute courses that will help
+    our youth in the future</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/library.jpg">
+            <h3>Suitable library</h3>
+            <p>Everyone that entered our library he/she 
+            will thougth that he/she is in <b>paradise. </b>Books departement.
+            </p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/basketball.jpg">
+            <h3>Good and Beautiful Play Ground</h3>
+            <p>Everyone that entered our library he/she 
+            will thougth that he/she is in <b>paradise. </b>Books departement.
+            </p>
+        </div><div class="facilities-col">
+            <img src="images/computer lab.jpg">
+            <h3>Best Computer Lab</h3>
+            <p>Everyone that entered our library he/she 
+            will thougth that he/she is in <b>paradise. </b>Books departement.
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<!--------Testimonial----------->
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>The school is very good as the result of good teachers and 
+        and good school infrastructures.</p>
+    <div class="row">
+       <div class="testimonial-col">
+           <img src="images/user1.jpg">
+           <div>
+               <p> Decision problems are one of the central objects of 
+                   study in computational complexity theory. That is why I
+                choose YPC University </p>
+                <h3>Munauwar Ahmad Qayyum</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+           </div>
+       </div> 
+       <div class="testimonial-col">
+            <img src="images/user2.jpg">
+          <div>
+            <p> Decision problems are one of the central objects of 
+                study in computational complexity theory. That is why I
+             choose YPC University </p>
+             <h3>David Iron Man</h3>
+             <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+         </div>
+        </div> 
+    </div>
+</section>
+
+<!---------------Call To Action---------------->
+<section class="cta">
+
+    <h1>Enroll For Our Various Online Courses<br> Anywhere
+        From The World
+    </h1>
+<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+
+<!---------------Footer---------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>To classify the computation time 
+        (or similar resources, such as space 
+        consumption), it is helpful to demonstrate 
+        upper and lower bounds on the maximum amount
+         of time required by the most efficient algorithm to solve a given problem.</p>
+         <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+         </div>
+         <p>
+           Made with <i class="fa fa-heart-o"></i> by Tukur Tutorials(TT)
+         </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------JavaScript for toggle Menu---------->
+<script>
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+<center><a href="http://127.0.0.1:5500/my%20website/My%20personal%20Website.html">Visit My personal page</a></center>
+
 </body>
 </html>
